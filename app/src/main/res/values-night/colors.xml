@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark background for small display elements -->
+    <color name="display_small">#1C2526</color>
+
+    <!-- Lightened text for medium-sized text, adjusted for dark background -->
+    <color name="text_medium">#E6E8EB</color>
+
+    <!-- Bright white for titles to stand out -->
+    <color name="text_title">#FFFFFF</color>
+
+    <!-- Muted light gray for body text -->
+    <color name="body">#A0A3BD</color>
+
+    <!-- Darker input background for contrast with light text -->
+    <color name="input_background">#2E2E2E</color>
+
+    <!-- Subtle gray for placeholders, readable on dark input -->
+    <color name="placeholder">#6B7280</color>
+
+    <!-- Darker shimmer effect for night mode -->
+    <color name="shimmer">#4B5563</color>
+</resources>
