@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen()
-     //   enableEdgeToEdge()
+        enableEdgeToEdge()
         setContent {
             NewsAppTheme {
                 Box(modifier = Modifier.background(MaterialTheme.colorScheme.background)){
