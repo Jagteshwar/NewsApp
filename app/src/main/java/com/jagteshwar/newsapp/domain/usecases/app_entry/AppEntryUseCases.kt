@@ -1,4 +1,4 @@
-package com.jagteshwar.newsapp.domain.usecases
+package com.jagteshwar.newsapp.domain.usecases.app_entry
 
 data class AppEntryUseCases(
     val saveAppEntry: SaveAppEntry,

@@ -8,11 +8,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.colorResource
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.navigation
 import androidx.navigation.compose.rememberNavController
+import com.jagteshwar.newsapp.R
 import com.jagteshwar.newsapp.presentation.onboarding.OnBoardingScreen
 import com.jagteshwar.newsapp.presentation.onboarding.OnBoardingViewModel
 
@@ -47,7 +49,7 @@ fun NavGraph(
                     verticalArrangement = Arrangement.Center,
                     horizontalAlignment = Alignment.CenterHorizontally
                 ) {
-                    Text(text = "News Navigator Screen", color = Color.White)
+                    Text(text = "News Navigator Screen", color = colorResource(id = R.color.display_small))
                 }
             }
         }

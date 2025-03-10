@@ -3,10 +3,9 @@ package com.jagteshwar.newsapp
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
-import androidx.compose.ui.geometry.RoundRect
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.jagteshwar.newsapp.domain.usecases.AppEntryUseCases
+import com.jagteshwar.newsapp.domain.usecases.app_entry.AppEntryUseCases
 import com.jagteshwar.newsapp.presentation.navgraph.Routes
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
