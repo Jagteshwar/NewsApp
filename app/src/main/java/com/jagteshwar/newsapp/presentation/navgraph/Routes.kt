@@ -7,7 +7,7 @@ sealed class Routes(
     object HomeScreen: Routes(route = "homeScreen")
     object SearchScreen: Routes(route = "searchScreen")
     object BookmarkScreen: Routes(route = "bookmarkScreen")
-    object detailsScreen: Routes(route = "detailsScreen")
+    object DetailsScreen: Routes(route = "detailsScreen")
     object AppStartNavigation: Routes(route = "appStartNavigation")
     object NewsNavigation: Routes(route = "newsNavigation")
     object NewsNavigatorScreen: Routes(route = "newsNavigator")
