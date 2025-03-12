@@ -11,6 +11,7 @@ import com.jagteshwar.newsapp.domain.usecases.app_entry.ReadAppEntry
 import com.jagteshwar.newsapp.domain.usecases.app_entry.SaveAppEntry
 import com.jagteshwar.newsapp.domain.usecases.news.GetNewsUseCase
 import com.jagteshwar.newsapp.domain.usecases.news.NewsUseCases
+import com.jagteshwar.newsapp.domain.usecases.news.SearchNewsUseCase
 import com.jagteshwar.newsapp.util.Constants.BASE_URL
 import dagger.Module
 import dagger.Provides
@@ -59,7 +60,8 @@ object AppModule {
     @Singleton
     fun providesNewsUseCases(repository: NewsRepository): NewsUseCases{
         return NewsUseCases(
-            getNewsUseCase = GetNewsUseCase(repository)
+            getNewsUseCase = GetNewsUseCase(repository),
+            searchNewsUseCase = SearchNewsUseCase(repository)
         )
     }
 }
